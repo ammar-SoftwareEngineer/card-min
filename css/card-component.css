@@ -134,7 +134,7 @@ section .address-card h4 {
 section .header-card h1 {
     font-weight: 700;
     font-family: var(--font-family-two);
-    width: 16rem;
+    width: 250px;
 }
 
 section .header-card p {
