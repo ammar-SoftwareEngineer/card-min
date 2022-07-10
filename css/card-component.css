@@ -151,18 +151,21 @@ section :is(.header-card p, .sale-card .click-sale button):hover {
 }
 
 @media(max-width:767px) {
+    section .address-card{
+        margin-bottom: -10px;
+    }
     section .address-card h4 {
         font-size: 14px;
     }
 
     section .header-card h1 {
         width: 300px;
-
     }
 
     section .header-card p {
+        margin-top: -5px;
         width: 18rem;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         font-size: 13px;
     }
 }
